@@ -1,0 +1,36 @@
+.home-header {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-slider,
+.home-select {
+  width: 50%;
+  padding: 0 0.5rem;
+}
+
+.home-call-list {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.home-call {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-call > div {
+  width: 33.33%;
+  height: 2rem;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-call-header {
+  position: relative;
+}

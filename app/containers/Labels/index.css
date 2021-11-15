@@ -1,0 +1,63 @@
+.label-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.label-operation {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border-bottom: 1px solid black;
+  z-index: 1;
+}
+
+.label-change {
+  margin: 2rem 0;
+  border-radius: 8px;
+  border: 1px solid lightblue;
+  padding: 1rem;
+  width: 40%;
+  align-self: flex-start;
+}
+.label-cell {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+.label-call-container {
+  width: 60%;
+  padding-left: 1rem;
+}
+.label-call {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.label-call > div {
+  width: 33.33%;
+  min-height: 2rem;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.label-call-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+.label-call-tag {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 6px;
+  cursor: pointer;
+  margin-right: 4px;
+}
